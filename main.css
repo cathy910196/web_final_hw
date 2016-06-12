@@ -1,0 +1,92 @@
+body {
+	background-color: #636563;
+	text-align: center;
+}
+div#wrapper {
+	width: 700px;
+	margin: 0 auto;
+}
+div#title {
+	height: 120px;
+	background-color: #efefe7;
+	padding: 10px;
+	border-bottom: 1px solid #000;
+}
+img#title_img {
+	float: left;
+}
+h1 {
+	margin-top: 30px;
+	font-weight: bold;
+	font-family: 標楷體;
+	font-size: 20pt;
+}
+div#maintext {
+	background-color:white;
+	font-size: 16px;
+	padding: 10px;
+	text-align: left;
+}
+div#navigation {
+	padding: 1px;
+	font-size: 16px;
+	text-align: right;
+}
+div#spacer {
+  clear: both;
+}
+div#photolist_nav {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+div.photolist {
+  float: left;
+  padding: 5px;
+  text-align: center;
+  height: 123px;
+}
+img#photolist {
+  border: 1px solid;
+}
+div#photoshow_photo {
+	text-align: center;
+}
+img#photoshow_photo {
+  border: 3px double; 
+  width: 640px;
+}
+div#photoshow_nav {
+  text-align: center;
+	padding: 10px; 
+}
+div#photoshow_thumblist {
+  padding: 2px;
+  text-align: center;
+}
+img.photoshow_thumblist_this {
+  width: 120px;
+  padding: 3px;
+  border: 3px solid #FF0000;
+}
+img.photoshow_thumblist {
+  width: 120px;
+  padding: 3px;
+}
+div#errMsg {
+	color:red;
+}
+ul {
+	list-style:none;
+}
+li {
+ 	width: 90%;
+	padding: 10px;
+}
+.odd {
+ 	background-color: lightGrey;
+}
+.even {
+ 	background-color: darkGray;
+}
+input {margin: 1px}
+input[type="text"] , input[type="password"] { width: 12em} 

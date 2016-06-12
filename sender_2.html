@@ -1,0 +1,77 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<!--RWD--->
+<link rel="stylesheet" href="css/style-l.css" media="only screen and (min-width:600px)">
+<link rel="stylesheet" href="css/style-s.css" media="only screen and (max-width:599px)">
+<title>領養者專區-自我介紹</title>
+<!--JQuery--->
+<link href="jquery/jquery-ui.css" rel="stylesheet">
+<script src="jquery/external/jquery/jquery.js"></script>
+<script src="jquery/jquery-ui.js"></script>
+<style>
+jq2 {
+	color: #000099;
+	font-size: 80%;
+}
+</style>
+</head>
+
+<body>
+<div id="wrapper">
+  <div id="header">
+    <div class="title" style="width:80%;height:80%;position:absolute;top:10px;left:20px;"> 
+    領養者專區-自我介紹 </div>
+  </div>
+  <div id="sidebar1"> </div>
+  <div id="content" > 自我介紹：<br>
+    <div style="position:absolute;">
+    <form method="POST" action="sender_3.html">
+    <textarea name="int" rows="10" cols="30" required></textarea><br>
+       <input name="submit" type="submit" value="送出">
+  &nbsp;
+  &nbsp;
+  <input name="reset" type="reset" value="清除">
+  </form>
+    </div>
+  </div>
+  <div id="footer"> 「網頁程式設計」與網「頁與人機互動應用」期末報告 </div>
+</div>
+<!--JQuery的script---> 
+<script>
+
+$( "#accordion" ).accordion();
+var availableTags = [
+	"ActionScript",
+	"AppleScript",
+	"Asp",
+	"BASIC",
+	"C",
+	"C++",
+	"Clojure",
+	"COBOL",
+	"ColdFusion",
+	"Erlang",
+	"Fortran",
+	"Groovy",
+	"Haskell",
+	"Java",
+	"JavaScript",
+	"Lisp",
+	"Perl",
+	"PHP",
+	"Python",
+	"Ruby",
+	"Scala",
+	"Scheme"
+];
+
+
+$( "#radioset" ).buttonset();
+
+
+
+</script>
+</body>
+</html>
